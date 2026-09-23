@@ -7,7 +7,7 @@
 <h1 align="center">ParalleLane</h1>
 
 <p align="center">
-  A fast and friendly Git client for the desktop.
+  The Git client that starts from worktrees.
 </p>
 
 <div align="center">
