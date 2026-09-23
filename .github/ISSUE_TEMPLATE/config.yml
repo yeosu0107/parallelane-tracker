@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions & ideas
+    url: https://github.com/yeosu0107/parallelane-tracker/discussions
+    about: Workflow questions, open-ended ideas, and general feedback go here.
+  - name: Documentation
+    url: https://parallelane.com/docs
+    about: How-to guides and reference.
+  - name: Release notes
+    url: https://parallelane.com/releases
+    about: Check whether your issue was already fixed in a newer version.
