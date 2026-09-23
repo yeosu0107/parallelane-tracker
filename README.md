@@ -11,15 +11,12 @@
 </p>
 
 <div align="center">
-<br/>
-
-  
-**Bug and issue tracker**<br/>
-Help us improve by reporting bugs or suggesting features in [GitHub Issues](https://github.com/yeosu0107/parallelane-tracker/issues).
-
-<br/><br/>
-
-**Questions & Community**<br/>
-Have a question, idea, or general feedback? Join the conversation in [Discussions](https://github.com/yeosu0107/parallelane-tracker/discussions).
-
+  <p>
+    <strong>Issues & Bug Reports</strong><br />
+    Found a bug or need a feature? Let us know on <a href="https://github.com/yeosu0107/parallelane-tracker/issues">GitHub Issues</a>.
+  </p>
+  <p>
+    <strong>Questions & Community</strong><br />
+    Have an idea, workflow question, or general feedback? Join us in <a href="https://github.com/yeosu0107/parallelane-tracker/discussions">Discussions</a>.
+  </p>
 </div>
