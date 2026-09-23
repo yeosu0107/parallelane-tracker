@@ -1,0 +1,82 @@
+name: Bug report
+description: Something in ParalleLane is not working as expected.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. The version and OS fields help us reproduce it quickly.
+        The app version is shown in **About ParalleLane** (macOS) or **Settings → About** (Windows).
+
+  - type: input
+    id: version
+    attributes:
+      label: ParalleLane version
+      placeholder: "e.g. 1.4.2"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS (Apple Silicon)
+        - macOS (Intel)
+        - Windows 10
+        - Windows 11
+    validations:
+      required: true
+
+  - type: input
+    id: os_version
+    attributes:
+      label: OS version
+      placeholder: "e.g. macOS 15.1, Windows 11 24H2"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: install
+    attributes:
+      label: How did you install it?
+      options:
+        - Homebrew
+        - DMG download
+        - Microsoft Store
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what actually happened.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open repository X with two worktrees
+        2. Switch to worktree B
+        3. Click ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: repo_context
+    attributes:
+      label: Repository context (optional)
+      description: Anything unusual about the repo — number of worktrees, submodules, LFS, very large history, remote host (GitHub/GitLab/Bitbucket/self-hosted/SSH), etc.
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots (optional)
+      description: Paste any error text or drag in a screenshot. Please remove anything private (tokens, repository names you don't want public).
+      render: text
